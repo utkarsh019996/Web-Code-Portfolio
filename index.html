@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Code Journey</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><span>Web</span>Code Journey</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#review">Testimonials</a></li>
+        <li><a href="assets/CV.pdf" download="">Download CV</a></li>
+      </ul>
+      <div class="nav__btn">
+        <a href="assets/CV.pdf" download="">Download CV</a>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="about">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <p class="section__subheader">Welcome</p>
+        <h1>I have <span>Creative Design</span> Experience</h1>
+        <p class="section__description">
+          Welcome to my personal portfolio! With a passion for turning ideas
+          into visually stunning digital experiences, I specialize in crafting
+          unique, user-friendly designs.
+        </p>
+        <div class="header__btns">
+          <button class="btn">Contact Me</button>
+          <a href="#">
+            View Portfolio
+            <span><i class="ri-arrow-right-up-line"></i></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container stats__container">
+      <div class="stats__card">
+        <h4>80+</h4>
+        <p>Satisfied clients</p>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__card">
+        <h4>200+</h4>
+        <p>Project completed</p>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__card">
+        <h4>99+</h4>
+        <p>Reviews given</p>
+      </div>
+    </section>
+
+    <section class="section__container skill__container" id="skill">
+      <div class="skill__content">
+        <p class="section__subheader">My Skills</p>
+        <h2 class="section__header">
+          Why Hire Me For Your Next <span>Project?</span>
+        </h2>
+        <p class="section__description">
+          My commitment to quality, attention to detail, and passion for
+          innovation ensure that every project is a success.
+        </p>
+        <div class="skill__btn">
+          <button class="btn">Hire Me</button>
+        </div>
+      </div>
+      <div class="skill__grid">
+        <div class="skill__card">
+          <span><i class="ri-pulse-line"></i></span>
+          <h4>Visual Design</h4>
+          <p>
+            Creating stunning, user-friendly interfaces that captivate and
+            engage.
+          </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-pencil-ruler-2-line"></i></span>
+          <h4>Design Prototype</h4>
+          <p>
+            Developing interactive prototypes & designs to visualize and refine
+            your ideas.
+          </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-graduation-cap-line"></i></span>
+          <h4>UX Research</h4>
+          <p>
+            Conducting thorough research to ensure intuitive and effective user
+            experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio__container" id="portfolio">
+      <div class="portfolio__content">
+        <p class="section__subheader">Portfolio</p>
+        <h2 class="section__header">
+          My Creative Works Latest <span>Projects</span>
+        </h2>
+        <p class="section__description">
+          From sleek web applications to dynamic user interfaces, these works
+          highlight my ability to bring unique ideas to life.
+        </p>
+        <div class="portfolio__btn">
+          <button class="btn">Show More</button>
+        </div>
+      </div>
+      <div class="portfolio__image__wrapper">
+        <div class="portfolio__image">
+          <img src="assets/portfolio-1.jpg" alt="portfolio" />
+          <img src="assets/portfolio-2.png" alt="portfolio" />
+          <img src="assets/portfolio-3.png" alt="portfolio" />
+          <img src="assets/portfolio-4.png" alt="portfolio" />
+          <img src="assets/portfolio-5.png" alt="portfolio" />
+          <img src="assets/portfolio-6.png" alt="portfolio" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container review__container" id="review">
+      <p class="section__subheader">Reviews</p>
+      <h2 class="section__header">
+        Our Customer Say Something <span>About Us</span>
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Working with them was a game-changer. Their creative vision and
+                technical expertise brought our website to life, exceeding all
+                expectations.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-1.jpg" alt="review" />
+                <div>
+                  <h4>John Doe</h4>
+                  <h5>CEO at Tech Innovations</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                The project was delivered on time and within budget. Their
+                design skills are top-notch, and their attention to detail is
+                impeccable.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-2.jpg" alt="review" />
+                <div>
+                  <h4>Jane Smith</h4>
+                  <h5>Manager at Creative Solutions</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                I've collaborated with many web developers, but they stands out
+                for their exceptional creativity and professional approach.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-3.jpg" alt="review" />
+                <div>
+                  <h4>Alice Brown</h4>
+                  <h5>Freelance Graphic Designer</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Our new web platform is visually stunning and highly functional,
+                thanks to the innovative design and seamless execution.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-4.jpg" alt="review" />
+                <div>
+                  <h4>Robert White</h4>
+                  <h5>Product Manager at WebCorp</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                From initial concept to the final launch, they were a true
+                partner in creating our online presence. Their work is beautiful
+                and user-friendly.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-5.jpg" alt="review" />
+                <div>
+                  <h4>Emily Green</h4>
+                  <h5>Entrepreneur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container">
+      <p class="section__subheader">Contact</p>
+      <h2 class="section__header">Let's Discuss Your <span>Project</span></h2>
+      <p class="section__description">
+        Whether you need a new website, a redesign, or custom functionality,
+        let's collaborate to create something amazing.
+      </p>
+      <form action="/">
+        <input type="text" placeholder="Full name" />
+        <input type="text" placeholder="Your email" />
+        <input type="text" placeholder="Phone number" />
+        <input type="text" placeholder="Budget" />
+        <textarea placeholder="Message"></textarea>
+        <button class="btn">Submit Message</button>
+      </form>
+    </section>
+
+    <footer class="section__container footer__container">
+      <p>Copyright © 2024 Web Code Journey. All rights reserved.</p>
+      <ul class="footer__socials">
+        <li>
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-google-fill"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
